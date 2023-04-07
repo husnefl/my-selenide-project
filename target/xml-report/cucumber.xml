@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="13.965" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="navigations" name="navigations test" time="13.831">
+<testsuite name="Cucumber" time="15.898" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="assertions" name="TC01_verify_title" time="15.741">
 <system-out><![CDATA[
-Given I navigate to  "https://www.google.com"...............................passed
+Given I navigate to "https://www.techproeducation.com"......................passed
+And I get the title of the current page and verity if it contains "Techpro Education".passed
 ]]></system-out>
 </testcase>
 </testsuite>

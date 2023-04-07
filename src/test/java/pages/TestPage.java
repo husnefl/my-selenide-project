@@ -7,8 +7,8 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Condition.*;
 public class TestPage {
     //    This is my TestCenter page class
-//    All objects ib TestCenter page will go here
-//    LOCATION THE ELEMETN USING FUNCTION
+//    All objects in TestCenter page will go here
+//    LOCATION THE ELEMENT USING FUNCTION
 //    public SelenideElement username(){
 //        return $(By.id("exampleInputEmail1"));
 //    }
