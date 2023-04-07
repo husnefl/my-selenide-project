@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="15.898" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="assertions" name="TC01_verify_title" time="15.741">
+<testsuite name="Cucumber" time="20.717" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="iframe" name="TC01_frame" time="20.542">
 <system-out><![CDATA[
-Given I navigate to "https://www.techproeducation.com"......................passed
-And I get the title of the current page and verity if it contains "Techpro Education".passed
+Given I navigate to "https://testcenter.techproeducation.com/index.php?page=iframe".passed
+And I verify the page header contains "iframe"..............................passed
+And I switch to the frame 1.................................................passed
+And I click on Back to TechProEducation.com.................................passed
+And I wait for 5 seconds....................................................passed
+When I switch to window 2...................................................passed
+Then I get the URL of the page and verify it contains "techproeducation"....passed
+When I switch to window 1...................................................passed
+And I hold the browser open.................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

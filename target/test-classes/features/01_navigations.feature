@@ -10,4 +10,4 @@ Feature: navigations
     And I wait for 3 seconds
     And I refresh the page
     And I wait for 3 seconds
-   # Then I hold the browser open
+    Then I hold the browser open
